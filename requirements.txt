@@ -10,7 +10,8 @@ python-dotenv~=1.0.1
 pdfminer.six==20231228
 pillow~=10.4.0
 s3fs~=2024.6.1
-# S3FileLoader in langchain-community.document_loaders dynamically imports boto3
-# s3fs requires aiobotocore. The latest aiobotocore, 2.13.1, requires botocore<1.34.132,>=1.34.70,
-# so we have to ensure we use a compatible boto3
+# Note: S3FileLoader in langchain-community.document_loaders dynamically imports boto3, and
+# s3fs requires aiobotocore, which has a dependency on boto3. The latest aiobotocore, 2.13.1,
+# requires botocore<1.34.132,>=1.34.70, so we have to explicitly ensure we use a compatible boto3
 boto3==1.34.131
+langchain-openai==0.1.16

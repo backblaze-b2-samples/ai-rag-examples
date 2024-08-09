@@ -9,7 +9,7 @@ There are two Jupyter notebooks:
 * [`gpt4all_demo.ipynb`](gpt4all_demo.ipynb) uses [GPT4All](https://www.nomic.ai/gpt4all) to load a large language model (LLM) and answer a series of related questions without any custom context. This is a minimal example to show the basics of working with LLMs on your own machine.
 * [`rag_demo.ipynb`](rag_demo.ipynb) uses the [LangChain framework](https://github.com/langchain-ai/langchain) to build a retrieval-augmented generation (RAG) chain that loads context from PDF data stored in a Backblaze B2 bucket and implements a conversational chatbot that can include message history in generating responses.
 
-You can browse the notebooks on GitHub and see sample output, or [run them yourself](running-the-notebooks).
+You can browse the notebooks on GitHub and see sample output, or [run them yourself](#running-the-notebooks).
 
 The webinar, [Leveraging your Cloud Storage Data in AI/ML Apps and Services](https://www.youtube.com/watch?v=WpOl1Y8IWhw), shows the Python applications that on which the above notebooks are based:
 

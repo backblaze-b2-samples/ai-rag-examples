@@ -2,15 +2,15 @@ beautifulsoup4==4.12.3
 jupyter==1.0.0
 gpt4all==2.7.0
 lancedb==0.13.0
-langchain>=0.2.6
+langchain>=1.2.31
 langchainhub==0.1.20
-langchain-community>=0.2.9
-langchain-chroma==0.1.2
-langchain-openai==0.1.16
-unstructured[pdf]==0.14.9
-python-dotenv==1.0.1
+langchain-community>=0.4.2
+langchain-chroma==1.1.0
+langchain-openai==1.1.14
+unstructured[pdf]==0.18.18
+python-dotenv==1.2.2
 pdfminer.six==20231228
-pillow==10.4.0
+pillow==12.3.0
 s3fs==2024.6.1
 # Note: S3FileLoader in langchain-community.document_loaders dynamically imports boto3, and
 # s3fs requires aiobotocore, which has a dependency on boto3. The latest aiobotocore, 2.13.1,
